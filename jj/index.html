@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Jake & Jesper</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+
+		}
+		.images {
+			
+		}
+		.images .left,
+		.images .right {
+			display: inline-block;
+			float: left;
+			width: 50vw;
+		}
+		.left {
+			text-align: right;
+		}
+		.right {
+			text-align: left;
+		}
+
+		.left img, .right img {
+			height: auto;
+			width: 50vw;
+			display: inline-block;
+		}
+
+		#snowflakeContainer {
+		    position: absolute;
+		    left: 0px;
+		    top: 0px;
+		}
+		.snowflake {
+		    padding-left: 15px;
+		    font-family: Cambria, Georgia, serif;
+		    font-size: 14px;
+		    line-height: 24px;
+		    position: fixed;
+		    color: #FFFFFF;
+		    user-select: none;
+		    z-index: 1000;
+		}
+		.snowflake:hover {
+		    cursor: default;
+		}
+	</style>
+</head>
+<body>
+
+<main>
+<section class="images">
+	<div class="left">
+		<img src="IMG_0546.jpg">
+	</div>
+	<div class="right">
+		<img src="IMG_0550.jpg">
+	</div>
+</section>
+<section class="images">
+	<div class="left">
+		<img src="IMG_0646.JPG">
+	</div>
+	<div class="right">
+		<img src="IMG_0645.JPG">
+	</div>
+</section>
+<section class="images">
+	<div class="left">
+		<img src="822B7042-21A5-415D-91A8-6D499B2CE6E3.JPG">
+	</div>
+	<div class="right">
+		<img src="822B7042-21A5-415D-91A8-6D499B2CE6E3.JPG">
+	</div>
+</section>
+<div id="snowflakeContainer">
+    <p class="snowflake">❤️</p>
+</div>
+</main>
+
+<script src="fallingsnow_v6.js"></script>
+</body>
+</html>
