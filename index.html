@@ -1,94 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Gunnar Hafdal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@GunnarHafdal">
-  <meta name="twitter:creator" content="@GunnarHafdal">
-  <meta name="twitter:title" property="og:title" content="Gunnar Hafdal">
-  <meta name="twitter:description" property="og:description" content="Gunnar Þór Hafdal is a front-end architect, living & working in Aarhus, Denmark">
-  <meta name="twitter:image" property="og:image" content="https://gunnarhafdal.com/laminn.jpg" />
-  <meta property="og:image:secure_url" content="https://gunnarhafdal.com/laminn.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="480" />
-  <meta property="og:image:height" content="640" />
-  <meta property="og:url" content="https://gunnarhafdal.com" />
-  <script type="text/javascript">
-      /*! modernizr 3.3.1 (Custom Build) | MIT *
-       * http://modernizr.com/download/?-touchevents-setclasses !*/
-      !function(e,n,t){function o(e,n){return typeof e===n}function s(){var e,n,t,s,a,i,r;for(var l in c)if(c.hasOwnProperty(l)){if(e=[],n=c[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(s=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],r=i.split("."),1===r.length?Modernizr[r[0]]=s:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=s),f.push((s?"":"no-")+r.join("-"))}}function a(e){var n=u.className,t=Modernizr._config.classPrefix||"";if(p&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(o,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),p?u.className.baseVal=n:u.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):p?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function r(){var e=n.body;return e||(e=i(p?"svg":"body"),e.fake=!0),e}function l(e,t,o,s){var a,l,f,c,d="modernizr",p=i("div"),h=r();if(parseInt(o,10))for(;o--;)f=i("div"),f.id=s?s[o]:d+(o+1),p.appendChild(f);return a=i("style"),a.type="text/css",a.id="s"+d,(h.fake?h:p).appendChild(a),h.appendChild(p),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(n.createTextNode(e)),p.id=d,h.fake&&(h.style.background="",h.style.overflow="hidden",c=u.style.overflow,u.style.overflow="hidden",u.appendChild(h)),l=t(p,e),h.fake?(h.parentNode.removeChild(h),u.style.overflow=c,u.offsetHeight):p.parentNode.removeChild(p),!!l}var f=[],c=[],d={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){c.push({name:e,fn:n,options:t})},addAsyncTest:function(e){c.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=d,Modernizr=new Modernizr;var u=n.documentElement,p="svg"===u.nodeName.toLowerCase(),h=d._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];d._prefixes=h;var m=d.testStyles=l;Modernizr.addTest("touchevents",function(){var t;if("ontouchstart"in e||e.DocumentTouch&&n instanceof DocumentTouch)t=!0;else{var o=["@media (",h.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");m(o,function(e){t=9===e.offsetTop})}return t}),s(),a(f),delete d.addTest,delete d.addAsyncTest;for(var v=0;v<Modernizr._q.length;v++)Modernizr._q[v]();e.Modernizr=Modernizr}(window,document);
-    </script>
-  <style>
-  @-webkit-viewport{width:device-width}
-  @-moz-viewport{width:device-width}
-  @-ms-viewport{width:device-width}
-  @-o-viewport{width:device-width}
-  @viewport{width:device-width}
-  body{
-    text-align: center;
-    position: relative;
-    margin:0 auto;
-    font-size: 1.2em; 
-    max-width: 768px;
-    width: 100%; 
-    font-family: Arial, sans-serif;    
-  }
-
-  .background {
-    background-image: url('laminn.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    max-width: 768px;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-  }
-
-  .main {
-    width: 100vw;
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #00E5FF;
-    padding-top: 62vh;
-    mix-blend-mode: color-dodge;
-    position: relative;
-  }
-  
-  .name{
-    font-size:2em;
-    font-weight:bold;
-    margin:0;
-  }
-  a {
-    color: #00E5FF;
-    -moz-transition: color 200ms ease;
-    -ms-transition: color 200ms ease;
-    -o-transition: color 200ms ease;
-    -webkit-transition: color 200ms ease;
-    transition: color 200ms ease;
-  }
-  .touchevents a, .no-touchevents a:hover, .no-touchevents a:focus {
-    color: #E2FF00;
-  }
-
-</style>
+  <title>Gunnar Þór Hafdal</title>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
-<body>
-  <div class="background"></div>
-  <main class="main">
-    <h1 class="name">Gunnar Hafdal</h1>
-    <p>
-      <a href="https://www.valtech.com/" title="Valtech">Builds</a>, 
-      <a href="https://twitter.com/GunnarHafdal" title="Twitter" rel="me">tweets</a>, 
-      &amp; <a href="https://www.instagram.com/gunnarhafdal/" title="Instagram" rel="me">takes pictures</a>.
-    </p>
-    <p>He also <a href="http://www.knaldemand.dk/" title="Knaldemand">plays a horseman creature</a>.</p>
-  </main>
+<body role="main">
+  <h1 class="name">Gunnar Þór Hafdal</h1>
+  <p>
+    <a href="http://instagram.com/gunnarhafdal" title="@gunnarhafdal" rel="me">Photographs</a>,
+    <a href="https://twitter.com/GunnarHafdal" title="@GunnarHafdal" rel="me">tweets</a>,
+    <span class="amp">&amp;</span> <a href="https://www.valtech.com/" title="Valtech">works</a>.
+  </p>
+  <p>He also <a href="http://knaldemand.dk" title="Knaldemand">plays a horseman creature</a>.</p>
 </body>
 </html>
